@@ -176,7 +176,7 @@
             //DataTable init
             new DataTable('#myTable');
 
-            //highlight row
+            //highlight row, don't highlight the thead
             $('tr').on('click', function(e){
                 if( $(this).hasClass('highlight'))
                     $(this).removeClass('highlight');
