@@ -92,6 +92,9 @@
                     </ul>
                     <p class="uk-text-muted uk-margin-top">knihovny jsem nestahoval, ale pro použití na projektu bych je umístil ve složce např. js</p>
                 </li>
+                <li>
+                    Čas jsem překročil o 32minut.
+                </li>
             </ul>
         </div>
         <hr class="uk-divider-icon">
