@@ -1,0 +1,17 @@
+.highlight{
+    background-color: rgba(137, 43, 226, 0.329) !important;
+}
+
+.button_primary{
+    background-color: yellowgreen;
+    color: black;
+    border: none;
+    padding: .5rem 2rem;
+    text-decoration: none !important;
+}
+
+.button_primary:hover,
+.button_primary:focus{
+    background-color: rgb(124, 167, 39);
+    color: black;
+}
