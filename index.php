@@ -179,7 +179,7 @@
             $('tr').on('click', function(e){
                 if( $(this).hasClass('highlight'))
                     $(this).removeClass('highlight');
-                else
+                else if( $(this).closest('thead').length === 0 )
                     $(this).addClass('highlight');
             });
         });
