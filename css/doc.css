@@ -15,3 +15,18 @@
     background-color: rgb(124, 167, 39);
     color: black;
 }
+
+.button_delete{
+    background-color: rgb(205, 50, 102);
+    color: white;
+    border: none;
+    padding: .2rem 1rem;
+    font-size: 1rem;
+    text-decoration: none !important;
+}
+
+.button_delete:hover,
+.button_delete:focus{
+    background-color:  rgb(129, 27, 61);
+    color: white;
+}

@@ -23,7 +23,7 @@
         //if there is a import parametr in URL and the dataArray is not empty
         if( isset($_GET['import']) && !empty($dataArray) ){
             //import has been already done
-            $_SESSION['message'] = ["false", "If you want to import data again, delete the old first. <a class='uk-button uk-text-danger' href='?delete'>Delete</a>"];
+            $_SESSION['message'] = ["false", "If you want to import data again, delete the old first. <a class='button_delete' href='?delete'>Delete</a>"];
 
         }elseif( isset($_GET['import']) && empty($dataArray) ){
             //connect to DB & import data
