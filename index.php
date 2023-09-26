@@ -173,6 +173,7 @@
 
     <script>
         $(document).ready(function(){
+            //DataTable init
             new DataTable('#myTable');
 
             //highlight row
