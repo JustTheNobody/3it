@@ -84,6 +84,9 @@
                     Klikem na řádek, se řádek označí a označený řádek se odznačí.
                 </li>
                 <li>
+                    Čas jsem překročil o 32minut.
+                </li>
+                <li>
                     <h4 class="uk-margin-large-top">Použité knihovny</h4>
                     <ul>
                         <li>Uikit</li>
@@ -92,9 +95,7 @@
                     </ul>
                     <p class="uk-text-muted uk-margin-top">knihovny jsem nestahoval, ale pro použití na projektu bych je umístil ve složce např. js</p>
                 </li>
-                <li>
-                    Čas jsem překročil o 32minut.
-                </li>
+
             </ul>
         </div>
         <hr class="uk-divider-icon">
