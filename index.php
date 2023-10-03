@@ -84,7 +84,7 @@
                     Klikem na řádek, se řádek označí a označený řádek se odznačí.
                 </li>
                 <li>
-                    Čas jsem překročil o 32minut.
+                    Čas jsem překročil o 72 minut.
                 </li>
                 <li>
                     <h4 class="uk-margin-large-top">Použité knihovny</h4>
