@@ -24,16 +24,17 @@ class HandleController
 
         switch ($view) {
             case 'home':
-                require 'views/home.php';
+                $view   = 'views/home.php';
                 break;
             case 'data':
                 $result = $this->viewData();
-                $flash = self::getFlash();
-                require 'views/data.php';
+                $flash  = self::getFlash();
+                $view   = 'views/data.php';
                 break;
             default:
-                echo "404 Not Found";
+                $view   = 'views/404.php';
         }
+        include 'views/layout.php';
     }
 
     public function viewData()
