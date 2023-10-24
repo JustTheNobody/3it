@@ -6,18 +6,16 @@
 
 <div>
     <?php
-
     if (!empty($flash)) {
-
         foreach ($flash as $key => $msg) {
     ?>
-            <script>
-                $(document).ready(function() {
-                    UIkit.notification({
-                        message: '<?php echo $key . '<br> ' . addslashes($msg); ?>'
-                    });
+        <script>
+            $(document).ready(function() {
+                UIkit.notification({
+                    message: '<?php echo $key . '<br> ' . addslashes($msg); ?>'
                 });
-            </script>
+            });
+        </script>
     <?php
         }
     }
