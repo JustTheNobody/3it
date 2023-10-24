@@ -67,7 +67,7 @@ class Import extends ConnectDB
                 $prijmeni = htmlspecialchars($data['prijmeni']);
                 $datum    = htmlspecialchars($data['date']);
 
-                $query .= "('$id', '$jmeno', '$prijmeni', '$datum'), ";
+                $query   .= "('$id', '$jmeno', '$prijmeni', '$datum'), ";
             }
 
             $query = rtrim($query, ', ');
