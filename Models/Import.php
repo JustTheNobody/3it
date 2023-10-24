@@ -62,10 +62,10 @@ class Import extends ConnectDB
 
             foreach ($dataArray as $data) {
 
-                $id       = $data['id'];
-                $jmeno    = $data['jmeno'];
-                $prijmeni = $data['prijmeni'];
-                $datum    = $data['date'];
+                $id       = htmlspecialchars($data['id']);
+                $jmeno    = htmlspecialchars($data['jmeno']);
+                $prijmeni = htmlspecialchars($data['prijmeni']);
+                $datum    = htmlspecialchars($data['date']);
 
                 $query .= "('$id', '$jmeno', '$prijmeni', '$datum'), ";
             }
